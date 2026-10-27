@@ -1,4 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="${href.chrome('site/js/mod/switch-dark-mode.js')}"></script>
 <link rel="stylesheet" href="${href.chrome('site/css/output.css')}" />
 <link rel="stylesheet" href="${href.chrome('site/css/trachacks.css')}" />
 <!--! uncomment for local version of webfont loader if desired. -->
@@ -11,6 +12,8 @@
     }
   });
 </script>
+<script src="${href.chrome('site/js/mod/switch-dark-mode.js')}"></script>
 # if req.path_info.startswith('/ticket/'):
   <script type="text/javascript" src="${href.chrome('site/tickethacks.js')}"></script>
 # endif
+<script src="${href.chrome('site/js/djangoproject.js')}"></script>
